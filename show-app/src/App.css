@@ -28,12 +28,12 @@
 .App-link {
   color: #61dafb;
 }
-#components-layout-demo-top-side-2 .logo {
-  width: 120px;
-  height: 31px;
+
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
   background: rgba(255, 255, 255, 0.2);
-  margin: 16px 28px 16px 0;
-  float: left;
+  margin: 16px;
 }
 
 @keyframes App-logo-spin {
@@ -44,3 +44,55 @@
     transform: rotate(360deg);
   }
 }
+
+#Home_content{
+  height: 40em;
+  position: relative;;
+}
+#Home_content_left {
+  /* position: fixed; */
+  height: 40em;
+  width: 60%;
+  position:relative;
+  float:left;
+}
+
+#Home_content_right{
+  height: 40em;
+  width: 30%;
+  position:relative;
+  float:left;
+  top:3em;
+}
+
+#Personal_picture{
+  border: 1px solid #ddd;
+  border-radius: 1em;
+  padding: 0.3em;
+  width: 30em;
+}
+
+#Home_content_hi{
+  height:10em;
+  position:relative;
+}
+
+#Hi_text{
+  text-align: center;
+  font-size: 7em;
+  font-family: sans-serif;
+  color: black;
+}
+
+#Home_content_description{
+  height:20em;
+  position:relative;
+}
+
+#Description_text{
+  text-align: left;
+  font-size: 2em;
+  font-family: sans-serif;
+  color: grey;
+}
+
