@@ -1,0 +1,12 @@
+.navigator {
+    /* position: fixed; */
+    height: 4.7em;
+    padding: 0 1%;
+  }
+  
+  #Casey-logo{
+    width: 6em;
+    float: left;
+    position: relative;
+    left: 5%;
+  }
