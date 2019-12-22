@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Menu, Icon } from "antd";
-import logo from "../images/logo.png";
+import logo from "../Images/logo.png";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 const { SubMenu } = Menu;
 
@@ -18,12 +19,14 @@ class Navigation extends Component {
     render() {
         return (
             <div className="navigator">
-                <img id="Casey-logo" src={logo} alt={"logo image"} />
+                <Link to={"/"}>
+                    <img id="Casey-logo" src={logo} alt={"logo image"} />
+                </Link>
                 <Menu
                     onClick={this.handleClick}
                     selectedKeys={[this.state.current]}
                     mode="horizontal"
-                    style={{ float: 'right' }}
+                    style={{ float: "right" }}
                 >
                     <Menu.Item key="a">
                         <a
@@ -31,19 +34,19 @@ class Navigation extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                        <Icon type="inbox" />
+                            <Icon type="inbox" />
                             Profile
-                    </a>
+                        </a>
                     </Menu.Item>
-                    <Menu.Item key="b" style={{ fontSize: '1em' }}>
+                    <Menu.Item key="b" style={{ fontSize: "1em" }}>
                         <a
                             href="https://ant.design"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                        <Icon type="user" />
+                            <Icon type="user" />
                             About
-                    </a>
+                        </a>
                     </Menu.Item>
                     <Menu.Item key="c">
                         <a
@@ -51,9 +54,9 @@ class Navigation extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                        <Icon type="file" />
+                            <Icon type="file" />
                             Resume
-                    </a>
+                        </a>
                     </Menu.Item>
                     <SubMenu
                         title={
@@ -64,13 +67,28 @@ class Navigation extends Component {
                         }
                     >
                         <Menu.ItemGroup title="social media">
-                            <Menu.Item key="instagram"><Icon type="instagram" />instagram</Menu.Item>
-                            <Menu.Item key="facebook"><Icon type="facebook" />facebook</Menu.Item>
-                            <Menu.Item key="linkedin"><Icon type="linkedin" />linkedin</Menu.Item>
+                            <Menu.Item key="instagram">
+                                <Icon type="instagram" />
+                                instagram
+                            </Menu.Item>
+                            <Menu.Item key="facebook">
+                                <Icon type="facebook" />
+                                facebook
+                            </Menu.Item>
+                            <Menu.Item key="linkedin">
+                                <Icon type="linkedin" />
+                                linkedin
+                            </Menu.Item>
                         </Menu.ItemGroup>
                         <Menu.ItemGroup title="contact">
-                            <Menu.Item key="email"><Icon type="mail" />email</Menu.Item>
-                            <Menu.Item key="text"><Icon type="mobile" />text</Menu.Item>
+                            <Menu.Item key="email">
+                                <Icon type="mail" />
+                                email
+                            </Menu.Item>
+                            <Menu.Item key="text">
+                                <Icon type="mobile" />
+                                text
+                            </Menu.Item>
                         </Menu.ItemGroup>
                     </SubMenu>
                 </Menu>

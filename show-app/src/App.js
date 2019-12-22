@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navigation from "./Navigation/Navigation";
-import person_pic from "./images/person.png"
+import person_pic from "./Images/person.png"
 import { Button, Radio, Icon } from 'antd';
+import Mainview from "./RootViews/Mainview"
 
 class App extends Component {
     render() {
         return (
             <div>
-                <Navigation></Navigation>
+                <Mainview></Mainview>
+                {/* <Navigation></Navigation>
                 <div id="Home_content">
                     <div id="Home_content_left">
                         <div id="Home_content_hi">
@@ -26,7 +28,7 @@ class App extends Component {
                     <div id="Home_content_right">
                         <img id="Personal_picture" src={person_pic} alt={"person image"}/>
                     </div>
-                </div>
+                </div> */}
             </div>
         );
     }
