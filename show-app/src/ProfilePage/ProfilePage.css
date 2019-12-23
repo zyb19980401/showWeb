@@ -15,7 +15,7 @@
     float:left;
 }
 .grid-item {
-    background-color: rgba(236, 230, 230, 0.8);
+    background-color: whitesmoke;
     text-align: center;
     width:11em;
     height: 15em;
@@ -74,4 +74,35 @@
     height: 90%;
     width: 90%;
     margin-left: 5%;
+    background-color: whitesmoke
+    
 }
+
+.ant-card-cover{
+    height:70%
+}
+
+.ant-carousel{
+    height:100%
+}
+
+.slick-current{
+    height:100%
+}
+.slick-list{
+    height:100%
+}
+.slick-initialized{
+    height:100%
+}
+
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    background:whitesmoke;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color:#364d79;
+  }
