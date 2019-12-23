@@ -99,11 +99,14 @@ class ProfilePage extends Component {
 
     render() {
         return (
+
             <div>
                 <Navigation></Navigation>
+
                 <div id='menu_Button_Grid'>
                     <div id="menu_Bar">
                         <MenuItem></MenuItem>
+                        
                     </div>
                 </div>
                 <div id="show_Grid">
