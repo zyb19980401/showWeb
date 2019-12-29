@@ -29,34 +29,22 @@ class Navigation extends Component {
                     style={{ float: "right" }}
                 >
                     <Menu.Item key="a">
-                        <a
-                            href="https://ant.design"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                        <Link to={"/"}>
                             <Icon type="inbox" />
                             Profile
-                        </a>
+                            </Link>
                     </Menu.Item>
                     <Menu.Item key="b" style={{ fontSize: "1em" }}>
-                        <a
-                            href="https://ant.design"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                        <Link to={"/Profile"}>
                             <Icon type="user" />
                             About
-                        </a>
+                    </Link>
                     </Menu.Item>
                     <Menu.Item key="c">
-                        <a
-                            href="https://ant.design"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                        <Link to={"/Profile"}>
                             <Icon type="file" />
                             Resume
-                        </a>
+                            </Link>
                     </Menu.Item>
                     <SubMenu
                         title={
