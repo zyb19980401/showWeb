@@ -105,8 +105,7 @@ class ProfilePage extends Component {
 
                 <div id='menu_Button_Grid'>
                     <div id="menu_Bar">
-                        <MenuItem></MenuItem>
-                        
+                        <MenuItem></MenuItem>   
                     </div>
                 </div>
                 <div id="show_Grid">
@@ -114,51 +113,51 @@ class ProfilePage extends Component {
                         <div className="grid-item item1">
                             <WorkCard name="Formality" src={FormalityArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard></div>
                         <div className="grid-item item2"><WorkCard name="FineArt" src={FineArtArry} >
                             <Tag color="geekblue">good</Tag>
-                            <Tag color="purple">love zyb</Tag>
+                            <Tag color="purple">cool</Tag>
                         </WorkCard></div>
                         <div className="grid-item item3">
                             <WorkCard name="MaoBi" src={MaoBiArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard></div>
                         <div className="grid-item item4">
                             <WorkCard name="ShoesCollection" src={ShoesCollectionArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard></div>
                         <div className="grid-item item5">
                             <WorkCard name="ShowDesign" src={ShowDesignArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
                         <div className="grid-item item6">
                             <WorkCard name="BlazingWeb" src={BlazingWebArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
 
                         <div className="grid-item item7">
                             <WorkCard name="LonelyPlace" src={LonelyPlaceArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
                         <div className="grid-item item8">
                             <WorkCard name="JumpSuit" src={JumpSuitArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
                         <div className="grid-item item9">
                             <WorkCard name="Nature Matters" src={NatureMattersArray} >
                                 <Tag color="geekblue">good</Tag>
-                                <Tag color="purple">love zyb</Tag>
+                                <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
                     </div>

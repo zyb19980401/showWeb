@@ -18,10 +18,10 @@ class WorkCard extends Component {
             <Card
                 hoverable
                 style={{ 'maxWidth': '100%', 'height': '100%' }}
-                // cover={<img alt="example" id="grid-img" src= {pic}/>}>
                 cover={<Slider src={this.props.src}></Slider>}>
-                {/* // // cover={Slider} */}
                 <Meta title={this.props.name} description={this.props.children}/>
+                <br></br>
+                <Button style={{ "width": "80%", "height": "100%", "backgroundColor":"#ffadd2" }}> Check Out Now!</Button>
             </Card>
         );
     }
