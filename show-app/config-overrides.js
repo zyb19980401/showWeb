@@ -8,7 +8,11 @@ module.exports = override(
     }),
     addLessLoader({
       javascriptEnabled: true,
-      modifyVars: { '@primary-color': '#69c0ff', 
+      modifyVars: {  
+      '@primary-color': '#ffd666',
+      '@text-color': '#595959',
+      '@heading-color': '#595959', // 标题色
+      '@text-color-secondary' : '#595959' // 次文本色
       },
     }),
   );
