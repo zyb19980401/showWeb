@@ -48,4 +48,9 @@
     font-family: sans-serif;
     color: grey;
   }
+  .ant-btn-primary{
+    background-color: white;
+    color:grey;
+    border-color:grey;
+  }
   
