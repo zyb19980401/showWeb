@@ -37,6 +37,9 @@ class MenuItem extends Component {
                     theme="light"
                     inlineCollapsed={this.state.collapsed}
                 >
+
+
+                
                     <SubMenu
                         key="ShowClothing"
                         title={
