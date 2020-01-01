@@ -157,6 +157,8 @@ class ProfilePage extends Component {
                             </WorkCard>
                         </div>
 
+
+
                         
                         <div className="grid-item item9">
                             <WorkCard name="Nature Matters" src={NatureMattersArray} >
