@@ -148,12 +148,16 @@ class ProfilePage extends Component {
                                 <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
+
+
                         <div className="grid-item item8">
                             <WorkCard name="JumpSuit" src={JumpSuitArray} >
                                 <Tag color="geekblue">good</Tag>
                                 <Tag color="purple">cool</Tag>
                             </WorkCard>
                         </div>
+
+                        
                         <div className="grid-item item9">
                             <WorkCard name="Nature Matters" src={NatureMattersArray} >
                                 <Tag color="geekblue">good</Tag>
