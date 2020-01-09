@@ -111,7 +111,7 @@ class ProfilePage extends Component {
                 <div id="show_Grid">
                     <div className="grid-container">
                         <div className="grid-item item1">
-                            <WorkCard name="Formality" src={FormalityArray} >
+                            <WorkCard name="Formality" src={FormalityArray} link={"./Profile/JumpSuit"} >
                                 <Tag color="geekblue">good</Tag>
                                 <Tag color="purple">cool</Tag>
                             </WorkCard></div>
