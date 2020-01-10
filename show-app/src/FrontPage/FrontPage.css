@@ -1,6 +1,7 @@
 #Home_content{
     height: 40em;
-    position: relative;;
+    position: relative;
+    margin-left:5em;
   }
   #Home_content_left {
     /* position: fixed; */

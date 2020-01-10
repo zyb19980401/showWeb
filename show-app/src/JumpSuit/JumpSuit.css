@@ -1,0 +1,57 @@
+.ShowBox1{
+    height: 45em;
+    width: 100%;
+    background-color:white;
+}
+
+.ShowBox2{
+    height: 60em;
+    width: 100%;
+    background-color:white;
+}
+
+.ShowBox1Image1{
+    position: relative;
+    height: 90%;
+    float: left;
+    width: 30%;
+    background-color: white;
+    margin-left: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.ShowBox1Image{
+    position: relative;
+    height: 90%;
+    float: left;
+    width: 30%;
+    background-color: white;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.Personal_picture{
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    padding: 0.3em;
+    max-width:100%;
+max-height:100%;
+}
+
+
+.ShowBox2Text{
+    height: 15%;
+    background-color:white;
+    text-align: center;
+    font-family: Impact;
+    font-size: 120%
+}
+
+.ShowBox2Images{
+    height: 80%;
+    background-color:white;
+    text-align: center;
+    margin-left: 25%;
+}

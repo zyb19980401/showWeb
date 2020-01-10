@@ -23,7 +23,7 @@ class WorkCard extends Component {
                 <Meta title={this.props.name} description={this.props.children}/>
                 <br></br>
                 <Link to={this.props.link}>
-                <Button style={{ "width": "80%", "height": "100%", "backgroundColor":"#ffadd2" }}> Check Out Now!</Button>
+                <Button style={{ "width": "80%", "height": "100%", "backgroundColor":"white" }}> Check Out Now!</Button>
                 </Link>
             </Card>
         );
