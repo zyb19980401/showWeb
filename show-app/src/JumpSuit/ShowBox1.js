@@ -4,9 +4,6 @@ import "./JumpSuit.css";
 import FormalityCover from "../Images/Formality/FormalityCover.jpg"
 import Formality1 from "../Images/Formality/Formality1.jpg"
 import Formality2 from "../Images/Formality/Formality2.jpg"
-import Formality3 from "../Images/Formality/Formality3.jpg"
-import Formality4 from "../Images/Formality/Formality4.jpg"
-
 export default function ShowBox1() {
     return (
         <Spring
