@@ -1,11 +1,11 @@
 import React from 'react'
 import { Spring } from "react-spring/renderprops"
 import Navigation from "../Navigation/Navigation"
-import "./JumpSuit.css";
+import "./Formality.css";
 import ShowBox1 from "./ShowBox1"
 import ShowBox2 from "./ShowBox2"
 
-export default function JumpSuit() {
+export default function Formality() {
     return (
         <div>
             <Navigation></Navigation>

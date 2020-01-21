@@ -1,0 +1,23 @@
+.ShowBox1{
+    height: 45em;
+    width: 100%;
+    background-color:red;
+}
+
+.ShowBox2{
+    height: 60em;
+    width: 100%;
+    background-color:grey;
+}
+
+.ShowBox3{
+    height: 60em;
+    width: 100%;
+    background-color:greenyellow;
+}
+
+.ShowBox4{
+    height: 60em;
+    width: 100%;
+    background-color:blue;
+}

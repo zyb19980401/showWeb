@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spring } from "react-spring/renderprops"
-import "./JumpSuit.css";
+import "./Formality.css";
 import Formality3 from "../Images/Formality/Formality3.jpg"
 import Formality4 from "../Images/Formality/Formality4.jpg"
 

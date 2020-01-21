@@ -111,16 +111,17 @@ class ProfilePage extends Component {
                 <div id="show_Grid">
                     <div className="grid-container">
                         <div className="grid-item item1">
-                            <WorkCard name="Formality" src={FormalityArray} link={"./Profile/JumpSuit"} >
+                            <WorkCard name="Formality" src={FormalityArray} link={"./Profile/Formality"} >
                                 <Tag color="geekblue">good</Tag>
                                 <Tag color="purple">cool</Tag>
                             </WorkCard></div>
-                        <div className="grid-item item2"><WorkCard name="FineArt" src={FineArtArry} >
+                        <div className="grid-item item2">
+                        <WorkCard name="FineArt" src={FineArtArry}>
                             <Tag color="geekblue">good</Tag>
                             <Tag color="purple">cool</Tag>
                         </WorkCard></div>
                         <div className="grid-item item3">
-                            <WorkCard name="MaoBi" src={MaoBiArray} >
+                            <WorkCard name="MaoBi" src={MaoBiArray} link={"./Profile/MaoBi"}>
                                 <Tag color="geekblue">good</Tag>
                                 <Tag color="purple">cool</Tag>
                             </WorkCard></div>
