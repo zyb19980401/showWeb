@@ -13,7 +13,7 @@ export default function ShowBox2() {
         >
             {props => (
                 <div style={props}>
-                    <div className="ShowBox2">
+                    <div className="ShowBox22">
                         <div className="ShowBox2Text">
                         Navy theme classic tailored suit with shoulder pad paired with trouser.<br></br>
                         Underneath the suit is styled with a corset. <br></br>

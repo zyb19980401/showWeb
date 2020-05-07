@@ -12,7 +12,7 @@ export default function ShowBox1() {
         >
             {props => (
                 <div style={props}>
-                    <div className="ShowBox1">
+                    <div className="ShowBox11">
                         <div className="ShowBox1Image1">
                             <img
                                 className="Personal_picture"
